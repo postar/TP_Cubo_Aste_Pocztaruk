@@ -6,10 +6,79 @@
     <Name>TP_Cubo_Aste_Pocztaruk.database</Name>
     <FullPath>TP_Cubo_Aste_Pocztaruk.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Northwind Mart.cube</Name>
+      <FullPath>Northwind Mart.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Northwind Mart.partitions</Name>
+          <FullPath>Northwind Mart.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Categoria.dim</Name>
+      <FullPath>Dim Categoria.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Producto.dim</Name>
+      <FullPath>Dim Producto.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Pais Proveedor.dim</Name>
+      <FullPath>Dim Pais Proveedor.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Proveedor.dim</Name>
+      <FullPath>Dim Proveedor.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Tiempo.dim</Name>
+      <FullPath>Dim Tiempo.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Cliente.dim</Name>
+      <FullPath>Dim Cliente.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Empleado.dim</Name>
+      <FullPath>Dim Empleado.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>Northwind Mart.ds</Name>
+      <FullPath>Northwind Mart.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Northwind Mart.dsv</Name>
+      <FullPath>Northwind Mart.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Northwind Mart</Id>
+            <Name>Northwind Mart</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=.\;Integrated Security=SSPI;Initial Catalog=Northwind_Mart</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Northwind Mart</Id>
+            <Name>Northwind Mart</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
