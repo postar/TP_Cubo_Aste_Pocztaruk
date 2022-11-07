@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "TP_Cubo_Aste_Pocztaruk", "TP_Cubo_Aste_Pocztaruk\TP_Cubo_Aste_Pocztaruk.dwproj", "{97984774-C29F-44CE-B093-67C9CC1C4174}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97984774-C29F-44CE-B093-67C9CC1C4174}.Development|Default.ActiveCfg = Development
+		{97984774-C29F-44CE-B093-67C9CC1C4174}.Development|Default.Build.0 = Development
+		{97984774-C29F-44CE-B093-67C9CC1C4174}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE6F212A-C3DD-47FA-A380-00B35C3964D3}
+	EndGlobalSection
+EndGlobal
