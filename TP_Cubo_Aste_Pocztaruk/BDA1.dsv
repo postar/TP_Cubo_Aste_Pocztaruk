@@ -1,0 +1,208 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4538bdcb-b866-4f62-a486-9d82910d80ad" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BDA1</ID>
+  <Name>BDA1</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>BDA1</DataSourceID>
+  <Schema>
+    <xs:schema id="BDA1" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="BDA1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="68419302-c454-4794-bd31-8b755812fcd9">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Alumno" msprop:DbTableName="Alumno" msprop:FriendlyName="Alumno" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="c86ed815-1457-40a5-9b6a-90fb9a00d603">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Nombre" msprop:FriendlyName="Nombre" msprop:DbColumnName="Nombre" msprop:design-time-name="bf4480ac-99ed-44e4-b15e-fe511c2f4d23">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Apellido" msprop:FriendlyName="Apellido" msprop:DbColumnName="Apellido" msprop:design-time-name="3e8b2bea-ec74-4fe1-a690-5cb3a43cca35">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DNI" msprop:FriendlyName="DNI" msprop:DbColumnName="DNI" msprop:design-time-name="3da51768-e249-43b2-a504-ffe4ebcd38bc" type="xs:int" />
+                  <xs:element name="Legajo" msprop:FriendlyName="Legajo" msprop:DbColumnName="Legajo" msprop:design-time-name="c184b16f-4d6a-47a9-b514-84493aa2b120" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_MATERIA" msprop:DbTableName="MATERIA" msprop:FriendlyName="MATERIA" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="85b87dfa-723b-449a-b40f-edf38a81bd13">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CodMat" msprop:FriendlyName="CodMat" msprop:DbColumnName="CodMat" msprop:design-time-name="3d9db33b-a1a6-4d89-ad91-40fe12b62360" type="xs:int" />
+                  <xs:element name="NombreMat" msprop:FriendlyName="NombreMat" msprop:DbColumnName="NombreMat" msprop:design-time-name="c3803bd4-b6df-48f5-b3da-7aa74f62d39a">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MatriculaProf" msprop:FriendlyName="MatriculaProf" msprop:DbColumnName="MatriculaProf" msprop:design-time-name="0ea90c82-3b52-44c7-9159-9bbc1646f0f8" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_PROFESOR" msprop:DbTableName="PROFESOR" msprop:FriendlyName="PROFESOR" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="741d511a-4be6-429b-95fe-ba2c52d5081b">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Nombre" msprop:FriendlyName="Nombre" msprop:DbColumnName="Nombre" msprop:design-time-name="17c33fac-5c6a-4fc8-b102-41cfd495bae6">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Apellido" msprop:FriendlyName="Apellido" msprop:DbColumnName="Apellido" msprop:design-time-name="823a475e-f690-4971-a18a-c73d04be6a3f">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DNI" msprop:FriendlyName="DNI" msprop:DbColumnName="DNI" msprop:design-time-name="8f2bef09-ebc7-4685-84d0-441a00127837" type="xs:int" />
+                  <xs:element name="Matricula" msprop:FriendlyName="Matricula" msprop:DbColumnName="Matricula" msprop:design-time-name="02c77e6f-e08f-46d0-be4e-89c74f29bfcb" type="xs:int" />
+                  <xs:element name="Titulo" msprop:FriendlyName="Titulo" msprop:DbColumnName="Titulo" msprop:design-time-name="802cb830-75d0-4eb7-a4f0-cb2fbf1771f5">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Sede" msprop:DbTableName="Sede" msprop:FriendlyName="Sede" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="aa953e98-e00b-43f4-bc84-5b36c8cf881b">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Direccion" msprop:FriendlyName="Direccion" msprop:DbColumnName="Direccion" msprop:design-time-name="154e3a3a-9027-47a9-9625-83da9a9acfe5">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Horario" msprop:FriendlyName="Horario" msprop:DbColumnName="Horario" msprop:design-time-name="be8b8593-4922-4363-a1f9-98a35e1f7b91">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CodSede" msprop:FriendlyName="CodSede" msprop:DbColumnName="CodSede" msprop:design-time-name="c30d77e4-2dad-417b-8be5-4b42f4b36353" type="xs:int" />
+                  <xs:element name="Localidad" msprop:FriendlyName="Localidad" msprop:DbColumnName="Localidad" msprop:design-time-name="77e504af-5209-43b7-90af-4b4d4ced54b6">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Provincia" msprop:FriendlyName="Provincia" msprop:DbColumnName="Provincia" msprop:design-time-name="0f6d8fa9-11ee-47b7-bff1-5e52cc0d3b69">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Pais" msprop:FriendlyName="Pais" msprop:DbColumnName="Pais" msprop:design-time-name="45c9d837-3dbd-4a5d-bc1c-0db6cb7dc605">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_HECHOS" msprop:DbTableName="HECHOS" msprop:FriendlyName="HECHOS" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="6ab86d25-0f24-4e86-b5a9-4a411912046c">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Profesor" msprop:FriendlyName="Profesor" msprop:DbColumnName="Profesor" msprop:design-time-name="c37b18c6-c5da-48e2-b8df-733a1f72bf4d" type="xs:int" />
+                  <xs:element name="Alumno" msprop:FriendlyName="Alumno" msprop:DbColumnName="Alumno" msprop:design-time-name="4a5b0706-90ae-499c-9e5a-a605f7be7d25" type="xs:int" />
+                  <xs:element name="Materia" msprop:FriendlyName="Materia" msprop:DbColumnName="Materia" msprop:design-time-name="5ad0aabc-7feb-416f-b1fd-30589f08f537" type="xs:int" />
+                  <xs:element name="Sede" msprop:FriendlyName="Sede" msprop:DbColumnName="Sede" msprop:design-time-name="ab81db88-afe4-4eca-bc9e-f2b1331afd7e" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Alumno" />
+          <xs:field xpath="Legajo" />
+        </xs:unique>
+        <xs:unique name="dbo_MATERIA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_MATERIA" />
+          <xs:field xpath="CodMat" />
+        </xs:unique>
+        <xs:unique name="dbo_PROFESOR_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_PROFESOR" />
+          <xs:field xpath="Matricula" />
+        </xs:unique>
+        <xs:unique name="dbo_Sede_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Sede" />
+          <xs:field xpath="CodSede" />
+        </xs:unique>
+        <xs:keyref name="FK_HECHOS_Sede" refer="dbo_Sede_Constraint1">
+          <xs:selector xpath=".//dbo_HECHOS" />
+          <xs:field xpath="Sede" />
+        </xs:keyref>
+        <xs:keyref name="FK_HECHOS_PROFESOR" refer="dbo_PROFESOR_Constraint1">
+          <xs:selector xpath=".//dbo_HECHOS" />
+          <xs:field xpath="Profesor" />
+        </xs:keyref>
+        <xs:keyref name="FK_HECHOS_Alumno" refer="Constraint1">
+          <xs:selector xpath=".//dbo_HECHOS" />
+          <xs:field xpath="Alumno" />
+        </xs:keyref>
+        <xs:keyref name="FK_HECHOS_MATERIA" refer="dbo_MATERIA_Constraint1">
+          <xs:selector xpath=".//dbo_HECHOS" />
+          <xs:field xpath="Materia" />
+        </xs:keyref>
+        <xs:keyref name="FK_MATERIA_PROFESOR" refer="dbo_PROFESOR_Constraint1">
+          <xs:selector xpath=".//dbo_MATERIA" />
+          <xs:field xpath="MatriculaProf" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <BDA1 xmlns="" />
+  </Schema>
+</DataSourceView>

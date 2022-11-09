@@ -8,56 +8,44 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Northwind Mart.cube</Name>
-      <FullPath>Northwind Mart.cube</FullPath>
+      <Name>BDA1.cube</Name>
+      <FullPath>BDA1.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Northwind Mart.partitions</Name>
-          <FullPath>Northwind Mart.partitions</FullPath>
+          <Name>BDA1.partitions</Name>
+          <FullPath>BDA1.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Dim Categoria.dim</Name>
-      <FullPath>Dim Categoria.dim</FullPath>
+      <Name>MATERIA.dim</Name>
+      <FullPath>MATERIA.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Producto.dim</Name>
-      <FullPath>Dim Producto.dim</FullPath>
+      <Name>Alumno.dim</Name>
+      <FullPath>Alumno.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Pais Proveedor.dim</Name>
-      <FullPath>Dim Pais Proveedor.dim</FullPath>
+      <Name>PROFESOR.dim</Name>
+      <FullPath>PROFESOR.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Proveedor.dim</Name>
-      <FullPath>Dim Proveedor.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Tiempo.dim</Name>
-      <FullPath>Dim Tiempo.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Cliente.dim</Name>
-      <FullPath>Dim Cliente.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Empleado.dim</Name>
-      <FullPath>Dim Empleado.dim</FullPath>
+      <Name>Sede.dim</Name>
+      <FullPath>Sede.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>Northwind Mart.ds</Name>
-      <FullPath>Northwind Mart.ds</FullPath>
+      <Name>BDA1.ds</Name>
+      <FullPath>BDA1.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Northwind Mart.dsv</Name>
-      <FullPath>Northwind Mart.dsv</FullPath>
+      <Name>BDA1.dsv</Name>
+      <FullPath>BDA1.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -66,15 +54,15 @@
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>Northwind Mart</Id>
-            <Name>Northwind Mart</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=.\;Integrated Security=SSPI;Initial Catalog=Northwind_Mart</Value>
+            <Id>BDA1</Id>
+            <Name>BDA1</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=RYZEN-DESKTOP;Integrated Security=SSPI;Initial Catalog=BDA1</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
-            <Id>Northwind Mart</Id>
-            <Name>Northwind Mart</Name>
+            <Id>BDA1</Id>
+            <Name>BDA1</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
